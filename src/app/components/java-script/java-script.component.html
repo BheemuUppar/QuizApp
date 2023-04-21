@@ -1,0 +1,48 @@
+<!-- New content/Style  -->
+
+<span class="w-100 d-flex justify-content-between  fs-3 flex-wrap mt-5" style="padding: 0px 10vw !important;">
+    <small>Subject : JavaScript</small>
+    <small *ngIf="displayResult ==  false">Time : {{minute + ":" + seconds}} Mins</small>
+</span>
+
+<div class="container mt-5" *ngIf="displayResult ==  false ">
+    <span class="d-flex align-items-center">
+        <span class="d-flex flex-nowrap"> 
+            <strong class="fs-3 text-nowrap">{{currentIndex+1+" "}}/</strong>
+            <small class="pt-3">25</small>
+        </span>
+    <h4 class="pt-3 ms-3">{{list[currentIndex].question}}</h4>
+    </span>
+
+    <div class=" options container  row text-center h-auto my-3 pl-2">
+
+        <div class="row" style="background-color:''">
+            <label style="cursor: pointer;" class="col-md-5 p-0 m-2 col-sm-12 rounded  text-center option " for={{i}} *ngFor="let option of list[currentIndex].options let i = index" (click)="saveAndValidateAnswer(option, i) ">
+                <input style="display: none;" type="radio" name="option"  id={{i}}>
+                <span class=" p-3" style="display: inline-block; width: 100%; letter-spacing: 2px;" >{{ option}}</span>
+            </label>
+        </div>
+
+
+    </div>
+    <span class="row" *ngIf="displayResult == false && list.length != 0">
+    <button class="btn col-md-2 col-sm-2 col-2   bg-success text-truncate" style="font-weight: bold ;" disabled type="button" (click)="previousQuestion() ">Previous</button>
+    <button class="btn col-md-6 col-sm-7 col-7 mx-2 btn-success text-truncate"  (click)="showResult()" >Submit Test</button>
+    <button class="btn col-md-2 col-sm-2 col-2 bg-success text-truncate" style="font-weight: bold ; " type="button" (click)="nextQuestion() ">Next</button>
+   </span>
+</div>
+
+<!-- Result Card -->
+
+<div class="container border mt-4 result-box text-center " *ngIf="displayResult ==  true">
+
+    <h3 *ngIf="marks >20" class="text-success mt-2 ">Great..!!</h3>
+    <h3 *ngIf="marks >10 && marks<=20" class="text-primary mt-2 ">Good Knowledge</h3>
+    <h3 *ngIf="marks <=10" class="text-danger mt-2 ">Need to Work Hard my Boy!!</h3>
+    <pre class="fs-1">
+
+Your Score is <strong> {{marks}} / 25</strong>
+Keep learning...!!
+    </pre>
+
+</div>

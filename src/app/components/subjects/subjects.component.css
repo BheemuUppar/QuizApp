@@ -1,0 +1,28 @@
+.card {
+    height: 300px;
+    min-width: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* background-color: rgb(76 169 201 / 15%); */
+    background: transparent !important;
+}
+
+.card p {
+    font-family: monospace;
+    padding-top: 1.3rem;
+}
+
+.card-footerb {
+    background-color: #5fc169a6;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-footerb a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: end;
+    font-family: fangsong;
+    font-size: 2rem;
+}
