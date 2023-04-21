@@ -1,0 +1,26 @@
+<nav class=" nav  d-flex justify-content-around navbar-expand-lg align-items-center bg-gradient" style="">
+    <h4 class="navbar-brand"><a routerLink="/home" class="fs-3 ">Tech Quiz</a>
+        <input #togg type="checkbox" id="togg" placeholder="hello">
+        <label for="togg" style="float: right;">
+             <i  *ngIf="!isNavOpen" style="float: right; font-weight: bolder;" id="menu-toggle" class="bi bi-list fs-2 text-light me-3"></i>
+             <i *ngIf="isNavOpen" style="float: right; font-weight: bolder;" id="menu-toggle" class="bi bi-x-lg fs-2 text-light me-3"></i>
+             </label>
+    </h4>
+    <ul [ngClass]="{ 'open': isNavOpen }" id="nav-list" class="nav-lists d-flex  align-items-center ">
+
+        <li class="nav-item "><a (click)="navToggle()" href="#" class="nav-link text-white text-center" routerLink="/register" *ngIf="isLoggedIn==null">Register</a></li>
+        <li class="nav-item "><a href="#" (click)="navToggle()" class="nav-link text-white text-center" routerLink="/prepare">Prepare</a></li>
+        <li class="nav-item "><a href="#" (click)="navToggle()" (click)="loginCheck()" class="nav-link text-white text-center" routerLink="/subjects">Start Quiz</a></li>
+        <li class="nav-item ">
+            <a (click)="navToggle()" class="nav-link text-white text-center " routerLink="/login" *ngIf="isLoggedIn==null">Login</a>
+            <span class=" d-flex user " *ngIf="isLoggedIn!=null">
+                <strong class="py-auto text-center nav-link text-light " id="username">
+                    <i class="bi bi-person-circle text-light"></i>
+                   <span> {{currentUser | uppercase}} </span>
+            </strong>
+            <a (click)="navToggle()" class="nav-link text-white text-center" href="#" (click)="logout()">Logout </a>
+            </span>
+        </li>
+    </ul>
+
+</nav>

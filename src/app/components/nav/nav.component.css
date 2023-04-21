@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+.nav-item {
+    list-style: none;
+}
+
+.bulb {
+    height: 1rem;
+    width: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Jockey One', sans-serif;
+    color: rgb(218 224 255);
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.bg-dark-cyan {
+    background-color: darkcyan;
+}
+
+strong {
+    font-weight: bold !important;
+}
+
+.nav {
+    /* background-color: #0c052c !important; */
+    background: transparent;
+    height: 100%;
+}
+
+nav li a {
+    letter-spacing: 2px !important;
+}
+
+#username {
+    letter-spacing: 2px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#togg {
+    display: none;
+}
+
+.nav-lists {
+    transition: 0.5s;
+}
+
+
+/* some Media Query */
+
+@media screen and (max-width: 600px) {
+    #menu-toggle {
+        display: block;
+    }
+    nav {
+        position: relative;
+    }
+    .nav-lists {
+        position: absolute;
+        left: -500px;
+        top: -15px;
+        width: 50vw;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        z-index: 888;
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: start !important;
+        align-items: center;
+        /* padding-top: 10rem; */
+        min-width: 150px !important;
+    }
+    .nav-lists li {
+        margin: 8px auto;
+    }
+    .user {
+        display: block !important;
+        margin-top: 15px;
+    }
+    .nav {
+        display: block !important;
+    }
+    .nav h4 {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        text-align: start;
+    }
+    .open {
+        left: 0px;
+    }
+    #username {
+        display: flex;
+        flex-direction: column !important;
+    }
+    #username i {
+        font-size: 40px;
+    }
+}

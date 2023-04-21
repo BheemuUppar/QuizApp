@@ -1,0 +1,19 @@
+.card {
+    background-color: #0C0528;
+}
+
+.container,
+.container div {
+    min-width: 320px !important;
+    /* background-color: green !important; */
+}
+
+h3 {
+    color: #837d8b;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+p {
+    color: #efefef;
+}

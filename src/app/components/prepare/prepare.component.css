@@ -1,0 +1,31 @@
+.container {
+    /* display: flex;
+    justify-content: space-around; */
+    width: 80% !important;
+    margin: auto auto !important;
+    color: whitesmoke;
+}
+
+.card {
+    background: transparent;
+    min-height: 200px !important;
+    min-width: 200px !important;
+}
+
+.card button {
+    background: transparent;
+}
+
+.card button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* .button-groups {
+    display: none;
+}
+
+.button-groups:active {
+    display: block !important;
+} */

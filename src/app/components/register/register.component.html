@@ -1,0 +1,59 @@
+<div class="container mt-5">
+    <div class="card  shadow w-75  container">
+        <!-- <h4 class="text-center card-title ">Register!!</h4> -->
+        <div class="image d-flex justify-content-center align-items-center mt-5 me-5"> <img src="https://cdn-icons-png.flaticon.com/512/2521/2521826.png" alt="register"></div>
+        <form [formGroup]="registerForm" class=" card-body mx-5 form-group" (ngSubmit)="register()">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 my-2">
+
+                    <!-- Name -->
+                    <input class="form-control input1 col-sm-12 col-md-5" type="text" placeholder="Enter Name" formControlName="name">
+                    <div class="error text-danger" *ngIf="registerForm.get('name')?.touched && registerForm.get('name')?.invalid ">
+                        <small class="text-danger" *ngIf="registerForm.get('name')?.errors?.['required']">Name can't be empty</small>
+                        <small class="text-danger" *ngIf="registerForm.get('name')?.errors?.['pattern']">Name only contains Alphabets</small>
+                    </div>
+
+                    <!-- Email -->
+                    <input class="form-control input2  col-sm-12 my-2 col-md-5" type="email" placeholder="Enter Email" formControlName="email">
+                    <div class="error text-danger" *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.invalid ">
+                        <small class="text-danger" *ngIf="registerForm.get('email')?.errors?.['required']">Email can't be empty</small>
+                        <small class="text-danger" *ngIf="registerForm.get('email')?.errors?.['email']">Email is Not Valid</small>
+                    </div>
+
+                </div>
+                <div class="col-md-5">
+                    <!-- Password -->
+                    <input class="form-control input col-sm-12 my-2" type="password" placeholder="Enter password" formControlName="password">
+                    <div class="error text-danger" *ngIf="registerForm.get('password')?.touched && registerForm.get('password')?.invalid ">
+                        <small class="text-danger" *ngIf="registerForm.get('password')?.errors?.['required']">Enter Password</small>
+                        <small class="text-danger" *ngIf="registerForm.get('password')?.errors?.['minlength']">password should be minimum of 6 characters </small>
+                        <small class="text-danger" *ngIf="registerForm.get('password')?.errors?.['maxlength']">password should be should not exceed 15 characters</small>
+                        <small class="text-danger" *ngIf="registerForm.get('password')?.errors?.['pattern']">
+                            <small>
+                                password should contain minimum <br>
+                                1 Uppercase <br>
+                                1 Lowercase <br>
+                                1 special characters <br>
+                                1 Number  <br>
+                            </small>
+                        </small>
+                    </div>
+
+                    <div class="valid text-success" *ngIf="registerForm.get('password')?.valid && registerForm.get('password')?.touched">Password is valid</div>
+
+                    <!-- Confirm Password -->
+                    <input class="form-control input  col-sm-12 my-2" type="password" placeholder="Confirm password" formControlName="cnfPass">
+                    <div class="error" *ngIf="registerForm.get('cnfPass')?.valid && registerForm.get('cnfPass')?.touched">
+                        <!-- <small class="text-danger" *ngIf="registerForm.get('password') != registerForm.get('cnfPass')">password didn't matched!</small> -->
+                        <small class="text-danger" *ngIf="registerForm.get('cnfPass')?.errors?.['minlength']">password should be minimum of 6 characters </small>
+                        <small class="text-danger" *ngIf="registerForm.get('cnfPass')?.errors?.['maxlength']">password should be should not exceed 15 characters</small>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-flex justify-content-center">
+                <button type="submit" class="btn btn-outline-success shadow mt-2 mx-2" [disabled]="registerForm.invalid">Register</button>
+                <button type="reset" class="btn  btn-outline-danger shadow mt-2 mx-2 ">Reset</button>
+            </div>
+        </form>
+    </div>
+</div>
