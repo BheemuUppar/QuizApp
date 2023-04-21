@@ -1,0 +1,461 @@
+{
+    "java": [{
+            "id": 1,
+            "question": "What is java?",
+            "options": ["java is programming langauge", " compiled langauge", " Interpreted langauge", "All of The Above"],
+            "answer": "All of The Above"
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is not an OOPS concept in Java?",
+            "options": ["Polymorphism ", "Inheritance", "Compilation", "Encapsulation"],
+            "answer": "Compilation"
+        },
+        {
+            "id": 3,
+            "question": "What is variable?",
+            "options": ["folder ", "container", "data type", "memory name"],
+            "answer": "memory name"
+        },
+        {
+            "id": 4,
+            "question": "What is not the use of “this” keyword in Java?",
+            "options": ["Referring to the instance variable when a local variable has the same name", "Passing itself to the method of the same class", "Passing itself to another method", "Calling another constructor in constructor chaining"],
+            "answer": "Referring to the instance variable when a local variable has the same name"
+        },
+        {
+            "id": 5,
+            "question": "Which of the following is a type of polymorphism in Java Programming?",
+            "options": ["Multiple polymorphism ", "Compile time polymorphism", "Multilevel polymorphism", "Execution time polymorphism"],
+            "answer": "Compile time polymorphism"
+        },
+        {
+            "id": 6,
+            "question": "What is Truncation in Java?",
+            "options": ["Floating-point value assigned to a Floating type ", "Floating-point value assigned to an integer type", "Integer value assigned to floating type", "Integer value assigned to floating type"],
+            "answer": "Floating-point value assigned to an integer type"
+        },
+        {
+            "id": 7,
+            "question": "Which of these is an incorrect statement?",
+            "options": ["String objects are immutable, they cannot be changed ", "String object can point to some other reference of String variable", "StringBuffer class is used to store string in a buffer for later use", "None of the mentioned"],
+            "answer": "StringBuffer class is used to store string in a buffer for later use"
+        },
+        {
+            "id": 8,
+            "question": "Which of these constructors is used to create an empty String object?",
+            "options": ["String()", "String(void)", "dString(0)", "None of the mentioned"],
+            "answer": "String()"
+        },
+        {
+            "id": 9,
+            "question": "Which of this method of class String is used to obtain a length of String object?",
+            "options": ["get()", "sizeOf()", "length()", "lengthOf()"],
+            "answer": "length()"
+        },
+        {
+            "id": 10,
+            "question": "Which of these operators can be used to concatenate two or more String objects?",
+            "options": ["+", "+=", "&", "||"],
+            "answer": "+"
+        },
+        {
+            "id": 11,
+            "question": "Which of these class is superclass of String and StringBuffer class?",
+            "options": ["java.util", "ArrayList", "java.lang", "none of the mentioned"],
+            "answer": "java.lang"
+        },
+        {
+            "id": 12,
+            "question": "What is the numerical range of a char data type in java? ",
+            "options": ["0 to 256 ", "-128 to 127", "0 to 65535", "0 to 32767"],
+            "answer": "0 to 65535"
+        },
+        {
+            "id": 13,
+            "question": " Which of these keywords are used for the block to be examined for exceptions?",
+            "options": ["check ", "throw", "catch", "try"],
+            "answer": "try"
+        },
+        {
+            "id": 14,
+            "question": " Which of these packages contains the exception Stack Overflow in Java?",
+            "options": ["java.io ", "java.system", "java.lang", "java.util"],
+            "answer": "java.lang"
+        },
+        {
+            "id": 15,
+            "question": "Which of the following is a superclass of every class?",
+            "options": ["ArrayList ", "Abstract Class", "Object Class", "String"],
+            "answer": "Object Class"
+        },
+        {
+            "id": 16,
+            "question": " Which of these keywords is used to define interfaces in Java?",
+            "options": ["intf ", "Intf", "interface", "Interface"],
+            "answer": "interface"
+        },
+        {
+            "id": 17,
+            "question": "Which of these are selection statements in Java?",
+            "options": ["break ", "continue", "for()", "if()"],
+            "answer": "if()"
+        },
+        {
+            "id": 18,
+            "question": " What is the extension of java code files?",
+            "options": [".js ", ".txs", ".class", ".java"],
+            "answer": ".java"
+        },
+        {
+            "id": 19,
+            "question": "Which of these cannot be used for a variable name in java?",
+            "options": ["identifier and keyword ", "identifier", "keyword", "none of the mentioned"],
+            "answer": "keyword"
+        },
+        {
+            "id": 20,
+            "question": "Which one of the following is not a Java feature?",
+            "options": ["Object-oriented ", "Use of pointers", "Portable", "Dynamic and Extensible"],
+            "answer": "Use of pointers"
+        },
+        {
+            "id": 21,
+            "question": "Which component is used to compile, debug and execute the java programs?",
+            "options": ["JRE", "JIT", "JDK", "JVM"],
+            "answer": "JDK"
+        },
+        {
+            "id": 22,
+            "question": "Which statement is true about Java?",
+            "options": ["Java is a sequence-dependent programming language ", "Java is a code dependent programming language", "Java is a platform-dependent programming language", " Java is a platform-independent programming language"],
+            "answer": "Java is a platform-independent programming language"
+        },
+        {
+            "id": 23,
+            "question": "Who invented Java Programming?",
+            "options": ["Guido van Rossum ", " James Gosling", "Dennis Ritchie", "Dennis Ritchie"],
+            "answer": "James Gosling"
+        },
+        {
+            "id": 24,
+            "question": "What is the size of float and double in java?",
+            "options": ["32 and 64", "32 and 32", "64 and 64", "64 and 32"],
+            "answer": "32 and 64"
+        },
+        {
+            "id": 25,
+            "question": "Number of primitive data types in Java are?",
+            "options": ["6 ", "7", "8", "9"],
+            "answer": "8"
+        }
+    ],
+
+
+    "SpringBoot": [{
+            "id": 1,
+            "question": "In Spring, which of the following methods is used to shut down the IoC container?",
+            "options": ["shutdownHook()", "shutdownHandler()", "registerHook()", "registerShutdownHook()"],
+            "answer": "registerShutdownHook()"
+        },
+        {
+            "id": 2,
+            "question": " Which of the following is the classification of different autowire in Spring?",
+            "options": ["byName, byType, destructor, and autodetect", "byName, byMethod, constructor, and autodetect", "byName, byType, constructor, and autocorrect", "byName, byType, constructor, and autodetect"],
+            "answer": "byName, byType, constructor, and autodetect"
+        },
+        {
+            "id": 3,
+            "question": "The java 5 feature has been introduced in Spring __________ version.",
+            "options": ["2.5", "3.0", "2.0", "4.0"],
+            "answer": "3.0"
+        },
+        {
+            "id": 4,
+            "question": "In Spring, which of the following is the correct way for using idref attribute?",
+            "options": ["Setter method", "Constructor argument", "Setter method and Constructor argument", "Arguments"],
+            "answer": "Setter method and Constructor argument"
+        },
+        {
+            "id": 5,
+            "question": "In Spring, which of the following about the scope of a stateful bean is correct?",
+            "options": ["Singleton scope", "Prototype scope", "Singleton and prototype scope", "None of these"],
+            "answer": "Singleton scope"
+        },
+        {
+            "id": 6,
+            "question": "The concept of an endpoint in web services is much like that of a controller in web applications.",
+            "options": ["True", "False"],
+            "answer": "True"
+        },
+        {
+            "id": 7,
+            "question": " Spring-WS provides various abstract endpoint classes for you to process the request.",
+            "options": ["org.springframework.ws.server.endpoint", "org.springframework.ws.server", "org.springframework.*", "none of the mentioned"],
+            "answer": "org.springframework.ws.server.endpoint"
+        },
+        {
+            "id": 8,
+            "question": "Endpoint Classes for DOM:-",
+            "options": ["AbstractDomPayloadEndpoint", "AbstractJDomPayloadEndpoint", "AbstractDom4jPayloadEndpoint", "AbstractXomPayloadEndpoint"],
+            "answer": "AbstractDomPayloadEndpoint"
+        },
+        {
+            "id": 9,
+            "question": "If you need to get access to the entire SOAP message, you should write an endpoint class by implementing:-",
+            "options": ["org.springframework.ws.server.endpoint.MessageEndpoint", "org.springframework.ws", "org.springframework.ws.server.endpoint", "all of the mentioned"],
+            "answer": "org.springframework.ws.server.endpoint.MessageEndpoint"
+        },
+        {
+            "id": 10,
+            "question": "Web services can be invoked through the core template class:-",
+            "options": ["org.springframework.ws.client.core.WebServiceTemplate", "JDBC Template", "All of the mentioned", "None of the mentioned"],
+            "answer": "org.springframework.ws.client.core.WebServiceTemplate"
+        },
+        {
+            "id": 11,
+            "question": "WebServiceTemplate provides a sendSourceAndReceiveToResult() method that accepts arguments:-",
+            "options": ["java.xml.transform.Source", "java.xml.transform.Result", "all of the mentioned", "none of the mentioned"],
+            "answer": "all of the mentioned"
+        },
+        {
+            "id": 12,
+            "question": "Which are the modules of Web layer?",
+            "options": ["WebSocket, Servlet, Web, Portlet", "WebSocket, Servlet, Web-MVC,Web", "HTML, JSP, WEB Portlet", "HTML, Servlet, WEB, Portlet"],
+            "answer": "WebSocket, Servlet, Web, Portlet"
+        },
+        {
+            "id": 13,
+            "question": "Which Of The Following Is Part Of Data Access Layer In Spring Framework?",
+            "options": ["Aspects", "Beans", "Context", "JMS"],
+            "answer": "JMS"
+        },
+        {
+            "id": 14,
+            "question": "Thread Scoped Bean Is Introduced In Which Version Of Spring Framework.",
+            "options": ["1.0", "2.0", "3.0", "4.0"],
+            "answer": "3.0"
+        },
+        {
+            "id": 15,
+            "question": "Which Class Is Used To Map A Database Row To A Java Object In Spring?",
+            "options": ["ResultSet", "ResultSetMapper", "RowMapper", "RowSetMapper"],
+            "answer": "RowMapper"
+        },
+        {
+            "id": 16,
+            "question": "Which Of The Following Class Can Be Used To Execute Sql Queries In Spring?",
+            "options": ["DBHelper", "DBTemplate", "JDBCHelper", "JdbcTemplate"],
+            "answer": "JdbcTemplate"
+        },
+        {
+            "id": 17,
+            "question": "What Is The Default Scope Of The Beans?",
+            "options": ["Prototype", "Request", "Session", "Singleton"],
+            "answer": "Singleton"
+        },
+        {
+            "id": 18,
+            "question": "What Is Bean In Spring?",
+            "options": ["Class", "Component", "Container", "Object"],
+            "answer": "Object"
+        },
+        {
+            "id": 19,
+            "question": "Which Tag Is Also Allowed By Static Field?",
+            "options": ["constructor-args", "list", "set", "util:constant"],
+            "answer": "util:constant"
+        },
+        {
+            "id": 20,
+            "question": "What Are Different Types Of Autowire?",
+            "options": ["byType", "byName", "autodetect", "All of the above", "constructor"],
+            "answer": "All of the above"
+        },
+        {
+            "id": 21,
+            "question": "To Deal With The Databases, Spring Framework Provides______________",
+            "options": ["DatabaseTemplate", "JdbcDrivers", "JdbcPluggins", "JdbcTemplate"],
+            "answer": "JdbcTemplate"
+        },
+        {
+            "id": 22,
+            "question": "In AOP, The Job Of An Aspect Is Called___________",
+            "options": ["advice", "join-points", "point-cut", "weaving"],
+            "answer": "advice"
+        },
+        {
+            "id": 23,
+            "question": "Which method is used to gracefully shutdown all the bean processes after closing the spring container?",
+            "options": ["shutdownHook", "destory method", "none of the mentioned", "all of the mentioned"],
+            "answer": "shutdownHook"
+        },
+        {
+            "id": 24,
+            "question": "Which attribute is used to specify classname of the bean?",
+            "options": ["name", "id", "class", "constructor-args"],
+            "answer": "class"
+        },
+        {
+            "id": 25,
+            "question": "What are the ways to create custom Property Editors?",
+            "options": ["implement PropertyEditor interface", "extend PropertyEditorSupport Class", "none of the mentioned", "all of the mentioned"],
+            "answer": "all of the mentioned"
+        }
+
+    ],
+    "Javascript": [{
+            "id": 1,
+            "question": "Javascript is an _______ language?",
+            "options": ["Object-Oriented", "Object-Based", "Procedural", "None of the above"],
+            "answer": "Object-Oriented"
+        },
+        {
+            "id": 2,
+            "question": "Which of the following keywords is used to define a variable in Javascript?",
+            "options": ["var", "let", "Both A and B", "None of the above"],
+            "answer": "Both A and B"
+        },
+        {
+            "id": 3,
+            "question": "Which of the following methods is used to access HTML elements using Javascript?",
+            "options": ["getElementbytId()", "getElementByClassName()", "Both A and B", "None of the above"],
+            "answer": "Both A and B"
+        },
+        {
+            "id": 4,
+            "question": "What is JavaScript?",
+            "options": ["JavaScript is a scripting language used to make the website interactive", "JavaScript is an assembly language used to make the website interactive", "JavaScript is a compiled language used to make the website interactive", "None of the mentioned"],
+            "answer": "JavaScript is a scripting language used to make the website interactive"
+        },
+        {
+            "id": 5,
+            "question": "Which of the following is correct about JavaScript?",
+            "options": ["JavaScript is an Object-Based language", "JavaScript is Assembly-language", "JavaScript is an Object-Oriented language", "JavaScript is a High-level language"],
+            "answer": "JavaScript is an Object-Based language"
+        },
+        {
+            "id": 6,
+            "question": "Among the given statements, which statement defines closures in JavaScript?",
+            "options": ["JavaScript is a function that is enclosed with references to its inner function scope", "JavaScript is a function that is enclosed with references to its lexical environment", "JavaScript is a function that is enclosed with the object to its inner function scope", "None of the mentioned"],
+            "answer": "JavaScript is a function that is enclosed with references to its lexical environment"
+        },
+        {
+            "id": 7,
+            "question": "Arrays in JavaScript are defined by which of the following statements?",
+            "options": ["It is an ordered list of values", "It is an ordered list of objects", "It is an ordered list of string", "It is an ordered list of functions"],
+            "answer": "It is an ordered list of values"
+        },
+        {
+            "id": 8,
+            "question": "Will the following JavaScript code work? <br> var js = (function(x) {return x*x;}(10));",
+            "options": ["Exception will be thrown", "Memory leak", "Error", "Yes, perfectly"],
+            "answer": "Yes, perfectly"
+        },
+        {
+            "id": 9,
+            "question": "Which of the following is not javascript data types?",
+            "options": ["Null type", "Undefined type", "Number type", "All of the mentioned"],
+            "answer": "All of the mentioned"
+        },
+        {
+            "id": 10,
+            "question": "Where is Client-side JavaScript code is embedded within HTML documents?",
+            "options": ["A URL that uses the special javascript:code", "A URL that uses the special javascript:protocol", "A URL that uses the special javascript:encoding", "A URL that uses the special javascript:stack"],
+            "answer": "A URL that uses the special javascript:protocol"
+        },
+        {
+            "id": 11,
+            "question": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+            "options": ["Position", "Window", "Standard", "Location"],
+            "answer": "Window"
+        },
+        {
+            "id": 12,
+            "question": "Which of the following can be used to call a JavaScript Code Snippet?",
+            "options": ["Function/Method", "Preprocessor", "Triggering Event", "RMI"],
+            "answer": "Function/Method"
+        },
+        {
+            "id": 13,
+            "question": "Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine?",
+            "options": ["will work perfectly well on a Windows Machine", "will be displayed as JavaScript text on the browser", "will throw errors and exceptions", "must be restricted to a Unix Machine only"],
+            "answer": "will work perfectly well on a Windows Machine"
+        },
+        {
+            "id": 14,
+            "question": "Which of the following scoping type does JavaScript use?",
+            "options": ["Sequential", "Segmental", "Lexical", "Literal"],
+            "answer": "Lexical"
+        },
+        {
+            "id": 15,
+            "question": "What is the basic difference between JavaScript and Java?",
+            "options": ["Functions are considered as fields", "Functions are values, and there is no hard distinction between methods and fields", "Variables are specific", "There is no difference"],
+            "answer": "Functions are values, and there is no hard distinction between methods and fields"
+        },
+        {
+            "id": 16,
+            "question": "Why JavaScript Engine is needed?",
+            "options": ["Both Compiling & Interpreting the JavaScript", "Parsing the javascript", "Interpreting the JavaScript", "Compiling the JavaScript"],
+            "answer": "Interpreting the JavaScript"
+        },
+        {
+            "id": 17,
+            "question": "Which of the following methods/operation does javascript use instead of == and !=?",
+            "options": ["JavaScript uses equalto()", "JavaScript uses equals() and notequals() instead", "JavaScript uses bitwise checking", "JavaScript uses === and !== instead"],
+            "answer": "JavaScript uses === and !== instead"
+        },
+        {
+            "id": 18,
+            "question": "Why event handlers is needed in JS?",
+            "options": ["Allows JavaScript code to alter the behaviour of windows", "Adds innerHTML page to the code", "Change the server location", "Performs handling of exceptions and occurrences"],
+            "answer": "Allows JavaScript code to alter the behaviour of windows"
+        },
+        {
+            "id": 19,
+            "question": "Which of the following is not a framework?",
+            "options": ["JavaScript .NET", "JavaScript", "Cocoa JS", "jQuery"],
+            "answer": "JavaScript"
+        },
+        {
+            "id": 20,
+            "question": "Which of the following is the property that is triggered in response to JS errors?",
+            "options": ["onclick", "onerror", "onmessage", "onexception"],
+            "answer": "onerror"
+        },
+        {
+            "id": 21,
+            "question": "Which of the following is not an error in JavaScript?",
+            "options": ["Missing of Bracket", "Division by zero", "Syntax error", "Missing of semicolons"],
+            "answer": "Division by zero"
+        },
+        {
+            "id": 22,
+            "question": "Which one of the following also known as Conditional Expression:",
+            "options": ["Alternative to if-else", "Switch statement", "If-then-else statement", "immediate if"],
+            "answer": "immediate if"
+        },
+        {
+            "id": 23,
+            "question": "In JavaScript, what is a block of statement?",
+            "options": ["Conditional block", "block that combines a number of statements into a single compound statement", "both conditional block and a single statement", "block that contains a single statement"],
+            "answer": "block that combines a number of statements into a single compound statement"
+        },
+        {
+            "id": 24,
+            "question": "When interpreter encounters an empty statements, what it will do:",
+            "options": ["Shows a warning", "Prompts to complete the statement", "Throws an error", "Ignores the statements"],
+            "answer": "Ignores the statements"
+        },
+        {
+            "id": 19,
+            "question": "The 'function' and 'var' are known as:",
+            "options": ["Keywords", "Data types", "Declaration statements", "Prototypes"],
+            "answer": "Keywords"
+        }
+    ]
+
+
+
+}

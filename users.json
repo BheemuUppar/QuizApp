@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Bheema",
+      "email": "bheem@gmail.com",
+      "password": "Xyz@123"
+    },
+    {
+      "name": "Rajukumar",
+      "email": "raju@gmail.com",
+      "password": "Abcd@123",
+      "cnfPass": "Abcd@123",
+      "id": 2
+    },
+    {
+      "name": "Test",
+      "email": "test@gmail.com",
+      "password": "Test@123",
+      "id": 3
+    },
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "id": 4
+    },
+    {
+      "name": "Ghana",
+      "email": "ghana@gmail.com",
+      "password": "Ghana@123",
+      "id": 5
+    },
+    {
+      "name": "mahesh",
+      "email": "bheemuk123@gmail.com",
+      "password": "Mahesh@1999",
+      "id": 6
+    },
+    {
+      "name": "Ghana",
+      "email": "ghanahiremath@gmail.com",
+      "password": "Ghana@1",
+      "id": 7
+    }
+  ]
+}

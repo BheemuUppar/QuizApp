@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "questionforquiz": {
+      "hosting": {
+        "QuizApp": [
+          "questionforquiz"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "questionforquiz"
+  }
+}
